@@ -11,6 +11,11 @@ export class Animal {
         this.name = name;
     }
 
+    meow(): string {
+        super.meow();
+        return 'Roar! Roar! Roar!';
+    }
+
 }
 
 export class Cat extends Animal {
