@@ -19,9 +19,9 @@ export class Cat extends Animal{
         super(data.age, data.legs, data.name);
     }
 
-    public get ourLegs() {
-        return this.legs;
-    }
+    // public get ourLegs() {
+    //     return this.legs;
+    // }
 
 }
 
