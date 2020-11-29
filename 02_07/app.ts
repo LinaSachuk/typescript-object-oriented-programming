@@ -21,6 +21,3 @@ function* WeaponGenerator() {
 for (let weapon of WeaponGenerator()) {
   console.log(`We have a ${weapon} in our options`);
 }
-
-// tsc app.ts --downlevelIteration
-
